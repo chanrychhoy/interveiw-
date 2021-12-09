@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url('');
+    font-family: sans-serif;
+    
+}
+nav{
+    display:flex;
+    background: rgb(110, 110, 245);
+   
+}
+nav ul{
+   display: flex;
+   list-style: none;
+}
+nav ul li{
+    padding:10px
+    
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color:yellow;
+}
+
+.imgs-section2{
+    
+}
