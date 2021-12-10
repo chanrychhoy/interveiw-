@@ -1,31 +1,182 @@
-body{
-    margin:0;
-    padding:0;
-    background-image: url('');
-    font-family: sans-serif;
-    
-}
-nav{
-    display:flex;
-    background: rgb(110, 110, 245);
-   
-}
-nav ul{
-   display: flex;
-   list-style: none;
-}
-nav ul li{
-    padding:10px
-    
-}
-ul li a{
-    text-decoration: none;
-    text-transform: uppercase;
-}
-nav ul li a:hover{
-    color:yellow;
+
+
+
+/* .profile{
+    width:80px;
+    height: 80px;
+    margin-left: 20px;
+} */
+
+
+.footer {
+    background: #363636;
 }
 
-.imgs-section2{
+/* nav */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    position:fixed;
+    top: 0px;
+    left: 0;
+    z-index: 7777;
+    width: 100%;
+    padding: 40px 0px;
+    transition: 1s;
+}
+.imgBg {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/rose7.jpg) no-repeat center;
+    background-size: cover;
+
+}
+nav.sticky {
+    padding: 0px;
+    background: #f5f3f3;
+    /* margin-top: 10px; */
+    transition: 1s;
+}
+nav.sticky li a:hover {
+    color:yellow;
+}
+nav.sticky li a{
+    color: #000;
+    margin-top: -8px;
     
 }
+nav.sticky li .btn-primary{
+    color:white;
+}
+
+nav.sticky li .btn-primary:hover{
+    color:white;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    padding: 15px;
+}
+li a {
+    text-decoration: none;
+    color: rgb(252, 250, 250);
+    font-size: 17px;
+    font-weight: bold;
+    transition: 1s ease-out ;
+    margin-top: -10px;
+}
+
+li a:hover {
+    color:yellow;
+}
+.sub_menu{
+    display: none;
+}
+nav ul li:hover .sub_menu{
+    display: block;
+    position: absolute;
+    background: rgb(143, 142, 142);
+    
+}
+nav ul li:hover .sub_menu ul {
+    display: block;
+}
+/* header */
+header{
+    background: url('https://dailytechtime.com/wp-content/uploads/2021/09/Latest-Software-Development-Trends.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+header .body {
+    justify-content: center;
+    text-align: center;
+    color:#ffff;
+    margin-top: 300px;
+   
+}
+hr{
+    margin-top: 2px;
+    border:3px solid rgb(211, 211, 7);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body p{
+    font-weight: bold;
+}
+/* services */
+.services{
+    background: #F8F9FA;
+}
+.img {
+    background: url("https://www.camsolution.biz/images/pexels-photo-160107.jpeg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    
+}
+.technologies{
+    overflow-y:none ;
+}
+.image{
+    background: url("https://www.camsolution.biz/images/pexels-photo-97050.jpeg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+#card{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    border:none;
+}
+.footer-copyright{
+    padding:10px;
+    background: #1D1F21;
+    color:#ffff;
+    
+}
+.fa-phone-alt,.fa-envelope,.fa-map-marker-alt{
+    color:rgba(185, 185, 8, 0.733);
+}
+#text p{
+    line-height:0px;
+}
+.fa-check{
+    color: rgb(0, 183, 255);
+}
+.service_footer .fa-check{
+    color: white;
+    
+}
+.service_footer p{
+    font-size: 13px;
+    line-height: 8px;
+}
+.content-footer p{
+    font-size: 13px;
+    line-height: 18px;
+}
+
+
+/* .col:hover {
+ transform: scale(1.1);
+ transition: all 2s ease-in-out;
+ background: #1461ad;
+} */
